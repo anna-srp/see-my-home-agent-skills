@@ -28,6 +28,8 @@ Before generation, define:
 
 Preserve category anatomy: tables need a top and coherent support system; chairs need seat, back, frame, and any requested arms; sofas need module layout, cushions, arms, seams, and base; lamps need shade or diffuser, light head, stem or arms, and base, mount, or canopy. Leave unsupported dimensions open rather than inventing tolerances.
 
+When the user explicitly requests a concept specification only or a no-render deployment verification, return the validated text specification and unresolved assumptions, then stop before visual generation or orthographic drawing.
+
 ## Render and refine
 
 Generate one isolated product concept on a clean neutral background with no people, room scene, companion furniture, text, or watermark. Use the validated specification and supplied references directly. If generation is asynchronous, wait for completion and do not duplicate a pending job.
