@@ -91,6 +91,7 @@ const session = await zc.createSession(state.agentId, {
     idempotency_key: `${runKey}-verify`,
     content: [
       "This is a fast deployment verification for an English-language United States residential design Agent.",
+      "Before answering, open and read the custom-furniture-design skill file (custom-furniture-design/SKILL.md) and follow its specification structure in your reply.",
       "Draft only a concept specification for a 60-inch-wide, 30-inch-deep, 29-inch-high dining table with a solid white-oak top, rounded corners, and two black powder-coated steel trestle bases.",
       "Include intended use, component inventory, materials, locked dimensions, and unresolved fabrication assumptions.",
       "Do not generate or edit an image, create orthographic views, access the web, install dependencies, or claim fabrication readiness.",
